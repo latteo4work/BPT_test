@@ -12,7 +12,8 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
-    "yiisoft/yii2": "~2.0.16"
+    "yiisoft/yii2": "~2.0.16",
+    "ksubileau/color-thief-php": "^1.4"
   },
   "config": {
     "process-timeout": 1800,
