@@ -24,6 +24,10 @@ return [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+        'image' => [
+            'class' => 'yii\image\ImageDriver',
+            'driver' => 'GD',  //GD or Imagick
+        ],
     ],
     'params' => $params,
 ];
